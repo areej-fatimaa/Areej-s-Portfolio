@@ -34,16 +34,16 @@ section.padding {
 }
 
 section img.background {
-  height: 100%;
-  left: 50%;
+  height: auto; /* Change height to auto to maintain the aspect ratio */
+  left: 0; /* Adjust left to 0 to align the image to the left */
   object-fit: cover;
   pointer-events: none;
   position: absolute;
   top: 0;
-  transform: translate(-50%, 0);
-  width: 100vmax;
+  width: 100%; /* Set width to 100% to ensure the image spans the entire width */
   z-index: -1;
 }
+
 
 h1 {
   font-family: "Cormorant Garamond", serif;

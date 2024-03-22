@@ -24,19 +24,19 @@ const imageAltText = "purple and blue abstract background";
  * Sort description that expands on your title on the Home component.
  */
 const description =
-  "I'm a UI/UX student studying at Barnett Technical University. I enjoy creating unique and simplistic user interfaces in creative ways.";
+  "I'm a Computer Science student studying at University of engineering and Technology. I enjoy solving problems and aspiring to make a positive impact in the ever-evolving world of technology.";
 
 /**
  * List of some of skills or technologies you work on, are learning,
  * passionate about, or enjoy,
  */
 const skillsList = [
-  "Web design",
-  "User experience",
-  "Inclusive design",
-  "Focus group testing",
-  "Mobile user interfaces",
-  "Graphic design",
+  "Front-End Development",
+  "Content Writing",
+  ".NET Framework",
+  "C++/C#",
+  "Problem Solver",
+  "",
 ];
 
 /**
@@ -45,7 +45,7 @@ const skillsList = [
  * about you on a professional level.
  */
 const detailOrQuote =
-  "I am passionate about solving problems in new creative ways to drive innovation. By leveraging my UI/UX experience I continually look for new and better ways to make tech accessible by all.";
+  " As a frontend developer and problem solver, I am driven by a passion for innovation. Utilizing my expertise in frontend development, I constantly explore inventive ways to address challenges and enhance user experiences. My focus is on making technology more accessible and user-friendly for all.";
 
 const About = () => {
   return (
